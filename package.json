@@ -1,0 +1,26 @@
+{
+  "name": "makemd",
+  "version": "0.1.0",
+  "description": "MakeMD bin",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pandoc",
+    "makemd",
+    "atom"
+  ],
+  "homepage": "https://makemd.app",
+  "author": "eonm",
+  "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eonm/makemd-npm.git"
+  },
+  "dependencies": {
+    "bin-wrapper": "^4.1.0",
+    "chalk": "^2.4.2"
+  }
+}
