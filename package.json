@@ -1,6 +1,6 @@
 {
-  "name": "makemd",
-  "version": "0.1.0",
+  "name": "@eonm/makemd",
+  "version": "0.1.1",
   "description": "MakeMD bin",
   "main": "index.js",
   "scripts": {
