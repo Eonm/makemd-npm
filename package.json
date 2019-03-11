@@ -1,6 +1,6 @@
 {
   "name": "@eonm/makemd",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MakeMD bin",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,10 @@
   "keywords": [
     "pandoc",
     "makemd",
-    "atom"
+    "atom",
+    "zotero",
+    "reveal.js",
+    "pdf"
   ],
   "homepage": "https://makemd.app",
   "author": "eonm",

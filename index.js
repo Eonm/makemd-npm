@@ -6,8 +6,8 @@ var fs = require('fs');
 var path = require('path');
 
 var bin = new BinWrapper({ global: false })
-	.src('https://github.com/Eonm/makemd-rs/releases/download/0.1.2/makemd-rs', 'linux', 'x64')
-	.src('https://github.com/Eonm/makemd-rs/releases/download/0.1.2/makemd-rs.exe', 'win32')
+	.src('https://github.com/Eonm/makemd-rs/releases/download/0.1.3/makemd-rs', 'linux', 'x64')
+	.src('https://github.com/Eonm/makemd-rs/releases/download/0.1.3/makemd-rs.exe', 'win32')
 	.dest(path.join(__dirname, 'vendor'))
 	.use(process.platform === 'win32' ? 'makemd-rs.exe' : 'makemd-rs');
 
